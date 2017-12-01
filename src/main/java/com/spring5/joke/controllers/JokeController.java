@@ -19,6 +19,6 @@ public class JokeController {
     public String showJokeQuote(Model model){
         model.addAttribute("jokeQuote",jokeQuoteService.getRandomJokeQuote());
 
-        return "chuckNorris";
+        return "chucknorris";
     }
 }
